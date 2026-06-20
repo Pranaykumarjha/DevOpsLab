@@ -1,4 +1,4 @@
-<!-- trigger:
+trigger:
 - main
 
 pool:
@@ -22,4 +22,4 @@ steps:
     PathtoPublish: 'target'
     ArtifactName: 'drop'
     publishLocation: 'Container'
-  displayName: 'Publish Build Artifacts' 
+  displayName: 'Publish Build Artifacts'
