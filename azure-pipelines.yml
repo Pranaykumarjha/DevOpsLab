@@ -6,10 +6,9 @@ pool:
 
 steps:
 
-- task: Maven@3
-  inputs:
-    mavenPomFile: 'pom.xml'
-    goals: 'package'
+- script: |
+    mvn package
+  displayName: 'Build Maven Project'
 
 - script: |
     echo "Simulating deployment..."
